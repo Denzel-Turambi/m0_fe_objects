@@ -41,16 +41,23 @@ console.log(Object.keys(foods));
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 // Write code that logs your email object to the terminal.
+var email = {
+  sender: "timtom@gmail.com",
+  reciever: "dororo@gmail.com",
+  subject: "testing",
+  message: "Hello, neighbor!",
+  attachedFiles: false
+};
 
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
 // YOUR CODE HERE
-
+console.log(Object.keys(email));
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
-
+console.log(Object.values(email));
 
 // #-------------------
 // Part 3: Many Emails - CHALLENGE!
@@ -100,3 +107,28 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+email = [
+  {
+    sender: "timtom@gmail.com",
+    reciever: "dororo@gmail.com",
+    subject: "testing",
+    message: "Hello, neighbor!",
+    attachedFiles: false
+  },
+  {
+    sender: "jxsnmike@gmail.com",
+    reciever: "dororo@gmail.com",
+    subject: "HeeHee",
+    message: "Annie, are you ok?",
+    attachedFiles: true
+  },
+  {
+    sender: "princeofDubai@gmail.com",
+    reciever: "dororo@gmail.com",
+    subject: "I need your help. $10,000 Reward will be given",
+    message: "Send my your SSN and Credit Card info pls",
+    attachedFiles: true
+  }
+];
+
+console.log(email);

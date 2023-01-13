@@ -14,7 +14,7 @@ var post = {
   caption: "At the beach with my besties", 
   timestamp: "4:37 PM August 13, 2019",
   likes: 0,
-comments: 0 
+comments: []
 };
 
 
